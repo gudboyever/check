@@ -1,0 +1,86 @@
+.kv-file-content img{	
+	height:100% !important;
+}
+.portlet.light>.portlet-title>.caption>.caption-subject {
+    font-size: 16px !important;
+	color:#32c5d2 !important;
+}
+
+.portlet.light>.portlet-title>.caption>i {
+    color: #32c5d2 !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    margin-top: 0px;
+}
+
+.portlet>.portlet-title>.caption>i {
+    /* float: left; */
+     margin-top: -2px !important;
+    display: inline-block !important ;
+    font-size: 18px !important;
+    margin-right: 5px !important;
+}
+
+.portlet>.portlet-title>.caption {
+    /* float: left; */
+    display: inline-block !important;
+    font-size: 16px !important;
+    /* line-height: 18px; */
+    /* padding: 10px 0; */
+}
+input[type=checkbox], input[type=radio] {
+    border: 1px solid #d9d9d9 !important;
+    background: 0 0 !important;
+    height: 18px !important;
+    width: 18px !important;
+    top: 4px !important;
+    position: relative !important;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 7px 7px 0px 7px !important;
+    margin-top: 1px\9 !important ;
+    line-height: normal !important;
+}
+/* #labelform .form-group.form-md-line-input.has-error .form-control.edited:not([readonly])~.help-block, .form-group.form-md-line-input.has-error .form-control.edited:not([readonly])~i, .form-group.form-md-line-input.has-error .form-control.edited:not([readonly])~label, .form-group.form-md-line-input.has-error .form-control.focus:not([readonly])~.help-block, .form-group.form-md-line-input.has-error .form-control.focus:not([readonly])~i, .form-group.form-md-line-input.has-error .form-control.focus:not([readonly])~label, .form-group.form-md-line-input.has-error .form-control.form-control-static~.help-block, .form-group.form-md-line-input.has-error .form-control.form-control-static~i, .form-group.form-md-line-input.has-error .form-control.form-control-static~label, .form-group.form-md-line-input.has-error .form-control:focus:not([readonly])~.help-block, .form-group.form-md-line-input.has-error .form-control:focus:not([readonly])~i, .form-group.form-md-line-input.has-error .form-control:focus:not([readonly])~label, .form-group.form-md-line-input.has-error label {
+    color: #27a4b0 !important;
+} */
+label
+{
+    color: #27a4b0 !important;
+}
+.form-control-checkbox label {
+    color: #27a4b0 !important;
+    width: 33% !important;
+    font-size: 14px !important;
+    
+}
+.form-control-checkbox.has-error label {
+    color: #27a4b0 !important;
+    width: 33% !important;
+    font-size: 14px !important;
+}
+#ddl_Update_Style .col-lg-4{
+ color:#27a4b0;
+  font-size: 14px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none !important; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield !important;
+}
+#email
+{
+ text-transform: lowercase;
+ }
+.table-scrollable a 
+{
+    text-transform: lowercase;
+}
+.fileinput-remove
+{
+ display:none!important;
+}
+
